@@ -1,5 +1,5 @@
 require 'rails_helper.rb'
-
+require 'support/action_controller_workaround.rb'
 describe MoviesController, :type => :controller do
     describe 'Find Movies With Same Director' do
         it 'calls the model method that performs finding movies with same director' do
